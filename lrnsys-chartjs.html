@@ -1,0 +1,34 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<!--
+`lrnsys-chartjs`
+A LRN element
+
+@demo demo/index.html 
+-->
+
+<dom-module id="lrnsys-chartjs">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]</h2>
+  </template>
+
+  <script>
+    Polymer({
+
+      is: 'lrnsys-chartjs',
+
+      properties: {
+        prop1: {
+          type: String,
+          value: 'lrnsys-chartjs',
+        },
+      },
+
+    });
+  </script>
+</dom-module>
